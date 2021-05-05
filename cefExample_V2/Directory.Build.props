@@ -1,0 +1,6 @@
+<Project>
+ <PropertyGroup>
+   <CefSharpTargetDir>CefSharp</CefSharpTargetDir>
+   <CefSharpBuildAction Condition="'$(OutputType)' == 'Library'">NoAction</CefSharpBuildAction>
+ </PropertyGroup>
+</Project>

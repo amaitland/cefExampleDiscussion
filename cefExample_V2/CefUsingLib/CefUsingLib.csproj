@@ -5,16 +5,9 @@
     <Platforms>x86</Platforms>
     <OutputPath>..\Out</OutputPath>
   </PropertyGroup>
-
-  <PropertyGroup>
-    <CefSharpTargetDir>CefSharp</CefSharpTargetDir>
-  </PropertyGroup>
   
   <ItemGroup>
-    <PackageReference Include="CefSharp.WinForms" Version="89.0.170">
-      <PrivateAssets>all</PrivateAssets>
-      <ExcludeAssets>runtime</ExcludeAssets>
-    </PackageReference>
+    <PackageReference Include="CefSharp.WinForms" Version="89.0.170"/>
   </ItemGroup>
 
   <!-- TODO manual build/clean that CefSharp.Forms is also in subfolder "CefSharp" -->
