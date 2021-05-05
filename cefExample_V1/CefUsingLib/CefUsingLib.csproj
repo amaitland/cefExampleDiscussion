@@ -12,7 +12,9 @@
   </PropertyGroup>
   
   <ItemGroup>
-    <PackageReference Include="CefSharp.WinForms" Version="89.0.170" />
+    <PackageReference Include="CefSharp.WinForms" Version="89.0.170">
+        <PrivateAssets>buildTransitive</PrivateAssets>
+    </PackageReference>
   </ItemGroup>
 
 </Project>
